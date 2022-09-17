@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.views.static import serve
+from django.conf.urls import url
 
 admin.site.site_header = "Medicure Admin"
 admin.site.site_title = "Medicure Admin Portal"
